@@ -1,6 +1,6 @@
+from src.application.exceptions import UserNotFoundError
 from src.application.ports.uow import UnitOfWork
 from src.application.ports.usecases import DeleteUserPort
-from src.application.exceptions import UserNotFoundError
 
 
 class DeleteUser(DeleteUserPort):
